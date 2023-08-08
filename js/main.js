@@ -22,7 +22,6 @@ $(function() {
 
 });
 
-
 function VerificaRequired() {
     
     obrigatorios = [];
