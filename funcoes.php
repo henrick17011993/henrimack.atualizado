@@ -10,7 +10,7 @@ function show(){
     return $conn->query($SQL,PDO::FETCH_ASSOC)->fetchall();
 }
 
-                     // funçoes / insere=>banco de dado/delete/editar/banco de dados=>tabela
+// funçoes / insere=>banco de dado/delete/editar/banco de dados=>tabela
 
 // bancodedados=>tabela
 
