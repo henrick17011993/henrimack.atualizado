@@ -40,9 +40,6 @@ function editar ($post){
     $query->execute();
 }
 
-
-
-
 function Deleta($post){
     $conn = conect();
     $SQL ="DELETE FROM henrimack WHERE IDTIPO = :id";
