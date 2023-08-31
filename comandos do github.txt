@@ -1,0 +1,39 @@
+gitclaPasso a Passo para utilizar o GitHub com VSCODE
+Passo 1 - Baixar o sistema através do comando: git remote add origin git@github.com:albertokff/aulagithub.git (adaptar conforme for o link do repositório! Ao criar um novo repositório, esse link é gerado lá)
+*Detalhe: caso o sistema já esteja baixado, apenas ir até a pasta e avançar para o Passo 2!
+
+Passo 2 - Criar uma nova branch: $ git checkout -b '1812-Ajuste-dos-campos-de-Estado-Civil-no-Cadastro-do-Produtor'
+Passo 3 - Começar as alterações
+Passo 4 - Adicionar as modificações ao state: git add .
+Passo 5 - Conferir quais são os arquivos para enviarmos, se está correto: git status
+Passo 6 - Descrever o que foi feito nessa versão que será enviada: git commit -a -m "mensagem descritiva"
+Passo 7 - Enviar para o github: git push (provavelmente ele vai dar um erro e sugerir um comando após git push, aí é só copiar tudo e jogar no terminal)
+Passo 8 - Para manter a pasta que foi baixada do gigitador, basta ir até a pasta, trocar para a branch main pelo terminal e dar o comando: git pull
+
+para saber em qual branch tu esta
+git branch --show-current
+
+para selecionar na main
+git checkout main
+
+para entra numa branch ja feita
+$ git checkout '1812-Ajuste-dos-campos-de-Estado-Civil-no-Cadastro-do-Produtor'
+
+para listar as branch
+git branch
+git branch -a
+
+Por sua vez, para deletar uma branch, use:
+git branch -d <nome-da-branch>
+
+Criar um novo branch e trocar
+git checkout -b ""
+
+para encontrar o diretorio
+$ cd projetotecnicomvc
+
+atualizar a main do projeto
+git pull origin main
+
+
+
