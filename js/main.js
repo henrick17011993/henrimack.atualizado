@@ -12,7 +12,6 @@ $(function() {
         AtualizaDados(id);
     });
 
-
     $("[id^=btnD_]").on ("click", function () {
         if(confirm("tem certeza ? ")){
             const id = $(this).attr("data-id");
@@ -30,6 +29,7 @@ function VerificaRequired() {
             obrigatorios.push(this.id);
         }
     });
+
     $('input[required]').each(function() {
         if ((this.value).trim() == '') {
             obrigatorios.push(this.id);
@@ -45,8 +45,7 @@ function VerificaRequired() {
         return "Campos obrigatórios não preenchidos: " + campos.substring(2);
     } else {
         return true;
-    }
-        
+    }        
 }
 
 function enviar() {
@@ -106,7 +105,4 @@ function AtualizaDados(id){
             }          
         }
     });
-
-  
-
 }
